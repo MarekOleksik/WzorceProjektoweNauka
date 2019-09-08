@@ -1,17 +1,15 @@
-package co.devfoundry;
+package co.devfoundry.observator;
 
-/*import co.devfoundry.notification.Email;
-import co.devfoundry.notification.MobileApp;
-import co.devfoundry.notification.TextMessage;
-import co.devfoundry.order.Order;
-import co.devfoundry.order.OrderStatus;*/
-
-import co.devfoundry.patterns.singleton.GameEngine;
+import co.devfoundry.observator.notification.Email;
+import co.devfoundry.observator.notification.MobileApp;
+import co.devfoundry.observator.notification.TextMessage;
+import co.devfoundry.observator.order.Order;
+import co.devfoundry.observator.order.OrderStatus;
 
 public class Main {
     public static void main(String[] args) {
 
-       /* Observator
+
         Order order = new Order(110l, OrderStatus.ZAREJESTROWANE);
         TextMessage textMessage = new TextMessage();
         MobileApp mobileApp = new MobileApp();
@@ -25,11 +23,8 @@ public class Main {
         order.changeOrderStatus(OrderStatus.WYSŁANE);
         order.unregisterObserver(email);
         System.out.println("---------------------------------");
-        order.changeOrderStatus(OrderStatus.ODEBRANE);*/
+        order.changeOrderStatus(OrderStatus.ODEBRANE);
 
-        GameEngine engine = GameEngine.getInstance();
-        GameEngine engine1 = GameEngine.getInstance();
-        System.out.println(engine==engine1);
 
     }
 }

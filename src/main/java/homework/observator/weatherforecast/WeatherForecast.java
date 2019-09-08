@@ -1,6 +1,6 @@
-package homework.weatherforecast;
+package homework.observator.weatherforecast;
 
-import homework.notification.Observer;
+import homework.observator.notification.Observer;
 
 import java.util.HashSet;
 import java.util.Set;

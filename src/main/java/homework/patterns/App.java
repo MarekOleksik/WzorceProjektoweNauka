@@ -1,4 +1,6 @@
-package homework.patterns.singleton;
+package homework.patterns;
+
+import homework.patterns.singleton.GuessGame;
 
 public class App {
     public static void main(String[] args) {

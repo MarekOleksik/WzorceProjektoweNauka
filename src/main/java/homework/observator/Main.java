@@ -1,9 +1,9 @@
-package homework;
+package homework.observator;
 
-import homework.notification.InternetNews;
-import homework.notification.RadioNews;
-import homework.notification.TvNews;
-import homework.weatherforecast.WeatherForecast;
+import homework.observator.notification.InternetNews;
+import homework.observator.notification.RadioNews;
+import homework.observator.notification.TvNews;
+import homework.observator.weatherforecast.WeatherForecast;
 
 public class Main {
     public static void main(String[] args) {

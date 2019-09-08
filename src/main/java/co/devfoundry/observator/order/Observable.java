@@ -1,6 +1,6 @@
-package co.devfoundry.order;
+package co.devfoundry.observator.order;
 
-import co.devfoundry.notification.Observer;
+import co.devfoundry.observator.notification.Observer;
 
 public interface Observable {
     void registerObserver(Observer observer);

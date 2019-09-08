@@ -1,6 +1,6 @@
-package homework.notification;
+package homework.observator.notification;
 
-import homework.weatherforecast.WeatherForecast;
+import homework.observator.weatherforecast.WeatherForecast;
 
 public class RadioNews implements Observer {
     public void updateForecast(WeatherForecast weatherForecast) {

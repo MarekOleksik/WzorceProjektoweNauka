@@ -1,6 +1,6 @@
-package co.devfoundry.notification;
+package co.devfoundry.observator.notification;
 
-import co.devfoundry.order.Order;
+import co.devfoundry.observator.order.Order;
 
 public class TextMessage implements Observer{
     public void update(Order order){

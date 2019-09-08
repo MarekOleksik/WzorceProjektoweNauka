@@ -1,4 +1,4 @@
-package co.devfoundry.order;
+package co.devfoundry.observator.order;
 
 public enum OrderStatus {
 
