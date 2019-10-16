@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a2e8fd-ec3b-4c46-baae-613677151278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/message/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Officer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/ChickenMealDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/MealDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/PotatoMeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/RiceMeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/SauceMealDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dekorator/ShrimpMealDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Captain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/OfficerRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Sergeant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Ania.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Antek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Shelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Tomek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/requests/MotherRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Officer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Officer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -83,20 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.flyweight.Main" />
-      <module name="WzorceProjektoweNauka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.devfoundry.adapter.Main" />
       <module name="WzorceProjektoweNauka" />
@@ -136,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.chainOfResponsibility.Main" />
+      <module name="WzorceProjektoweNauka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.chainOfResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.devfoundry.chainOfResponsibility.Main" />
       <module name="WzorceProjektoweNauka" />
@@ -164,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
