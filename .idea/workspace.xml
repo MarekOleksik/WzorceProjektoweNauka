@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a2e8fd-ec3b-4c46-baae-613677151278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/AutomaticTransmissionStartingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/BottonCarStartingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/CarStartingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/ClassicCarStartingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/templateMethod/MyDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/templateMethod/TypeOfTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/templateMethod/WeekDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/CoffeeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/WorkshopApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/command/CoffeeMakerTurnOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/command/CoffeeMakerTurnOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/command/RobotCutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/command/RobotDrillCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/command/RobotTurnOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/workshop/command/RobotTurnOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/workshop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/workshop/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/workshop/MusicPlayerRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/workshop/command/MusicPlayerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/workshop/command/PlayFirstTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/workshop/command/PlayNextTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/workshop/command/PlayRandomTrack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/WzorceProjektoweNauka.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/WzorceProjektoweNauka.kotlin_module" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.templateMethod.Main" />
       <module name="WzorceProjektoweNauka" />
@@ -92,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.adapter.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.workshop.Main" />
       <module name="WzorceProjektoweNauka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.adapter.*" />
+          <option name="PATTERN" value="homework.workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,6 +157,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.devfoundry.workshop.Main" />
+      <module name="WzorceProjektoweNauka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.devfoundry.workshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.factory.Main" />
       <module name="WzorceProjektoweNauka" />
       <extension name="coverage">
@@ -159,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +203,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567722529721</updated>
     </task>
+    <task id="LOCAL-00001" summary="Metoda szablonowa">
+      <created>1572378400027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572378400027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,5 +225,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Metoda szablonowa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metoda szablonowa" />
   </component>
 </project>
