@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a2e8fd-ec3b-4c46-baae-613677151278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Captain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/General.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/OfficerRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Sergeant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Ania.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Antek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Shelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/family/Tomek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/chainOfResponsibility/requests/MotherRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/AutomaticTransmissionStartingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/BottonCarStartingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/CarStartingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/templateMethod/ClassicCarStartingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/templateMethod/MyDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/templateMethod/TypeOfTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/templateMethod/WeekDay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Officer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/chainOfResponsibility/officer/Officer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,20 +50,20 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builderclassic\house" />
-      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builder-classic" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework.templateMethod" />
+      <recent name="co.devfoundry.dekorator" />
+      <recent name="homework.adapter" />
+      <recent name="co.devfoundry.flyweight" />
+      <recent name="homework.factory.cars" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.devfoundry.patterns.singleton" />
       <recent name="co.devfoundry.observator" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="co.devfoundry.dekorator" />
-      <recent name="homework.adapter" />
-      <recent name="co.devfoundry.flyweight" />
-      <recent name="homework.factory.cars" />
-      <recent name="homework.weatherforecast" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builderclassic\house" />
+      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builder-classic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,13 +78,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.devfoundry.adapter.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.templateMethod.Main" />
       <module name="WzorceProjektoweNauka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.devfoundry.adapter.*" />
+          <option name="PATTERN" value="homework.templateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +185,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
