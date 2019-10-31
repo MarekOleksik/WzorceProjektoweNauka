@@ -2,39 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a2e8fd-ec3b-4c46-baae-613677151278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/memento/SmartApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/memento/SmartAppCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/memento/SmartAppMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/strategy/chef/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/strategy/chef/egg/cooker/EggCooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/strategy/chef/egg/cooker/HardBoiledEggCooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/strategy/chef/egg/cooker/SoftBoildeEggCooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/visitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/visitor/activity/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/visitor/activity/Squash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/visitor/activity/Treadmill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/visitor/activity/Weights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/visitor/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/visitor/visitor/VisitorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/memento/OperatingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/memento/OperatingSystemCaretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/memento/OperatingSystemMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/strategy/shop/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/strategy/shop/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/strategy/shop/RegularPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/strategy/shop/SalePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/transport/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/transport/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/transport/Shipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/transport/Transportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/visitor/NameTransportVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/visitor/PriceTransportVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/visitor/visitor/TransportVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/fasada/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/fasada/deliverybox/DeliveryBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/fasada/deliverybox/DeliveryBoxFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/fasada/deliverybox/DeliveryBoxSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/state/CoffeMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/state/CoinInsertedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/state/CupFullState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/state/NoCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/devfoundry/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/fasada/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/fasada/bank/AtmMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/fasada/bank/AtmMachineFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/fasada/bank/BankSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/state/CoinInsertedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/state/Fliper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/state/NoCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/state/WinState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,22 +61,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/co/devfoundry/builderclassic/house" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="homework.templateMethod" />
-      <recent name="co.devfoundry.dekorator" />
-      <recent name="homework.adapter" />
-      <recent name="co.devfoundry.flyweight" />
-      <recent name="homework.factory.cars" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builderclassic\house" />
+      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builder-classic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.devfoundry.patterns.singleton" />
       <recent name="co.devfoundry.observator" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builderclassic\house" />
-      <recent name="C:\JavaProjects\WzorceProjektoweNauka\src\main\java\co\devfoundry\builder-classic" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.devfoundry.fasada" />
+      <recent name="co.devfoundry.state" />
+      <recent name="homework.templateMethod" />
+      <recent name="co.devfoundry.dekorator" />
+      <recent name="homework.adapter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,13 +94,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.strategy.Main" />
+      <option name="MAIN_CLASS_NAME" value="homework.fasada.Main" />
       <module name="WzorceProjektoweNauka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.strategy.*" />
+          <option name="PATTERN" value="homework.fasada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.memento.Main" />
+      <option name="MAIN_CLASS_NAME" value="homework.state.Main" />
       <module name="WzorceProjektoweNauka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.memento.*" />
+          <option name="PATTERN" value="homework.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.devfoundry.visitor.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.devfoundry.state.Main" />
       <module name="WzorceProjektoweNauka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.devfoundry.visitor.*" />
+          <option name="PATTERN" value="co.devfoundry.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +148,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.devfoundry.strategy.Main" />
+      <option name="MAIN_CLASS_NAME" value="co.devfoundry.fasada.Main" />
       <module name="WzorceProjektoweNauka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.devfoundry.strategy.*" />
+          <option name="PATTERN" value="co.devfoundry.fasada.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
